@@ -1,0 +1,13 @@
+i=1
+l1=[]
+l2=[]
+c=0
+while(i<=10):
+    l1.append(i)
+    i=i+1
+print(l1)
+j=2
+while(j<=10):
+    l2.append(j)
+    j=j+2
+print(l2)

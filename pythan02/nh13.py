@@ -1,0 +1,15 @@
+i=1
+l1=[]
+c=0
+while(i<=10):
+    l1.append(i)
+    i=i+1
+print(l1)
+c=0
+f=1
+c=l1[0]
+while(f<len(l1)):
+    if(l1[f]>c):
+        c=l1[f]
+    f=f+1
+print(c)
